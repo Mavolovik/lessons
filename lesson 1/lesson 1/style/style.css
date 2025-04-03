@@ -1,0 +1,55 @@
+h1{
+    color: red;
+    /* выровнять по центру */
+    text-align: center;
+}
+
+/* Селекторы:
+1. название тега   
+2. .класс
+3. #идентификатор
+ */
+ 
+ p{
+    /* свойство: значение; */
+    /* цвет текста */
+    color: red;
+    /* размер текста */
+    font-size: 20px;
+ }
+
+ .changeColor{
+    color: pink;
+ }
+
+ .p1{
+    font-size: 25px;
+ }
+
+ #color1{
+    color:yellowgreen;
+ }
+
+.changeSize{
+    font-size: 30px;
+}
+
+.new_p{
+    color: black;
+    font-size: 16px;
+    /* ширина */
+    width: 50%;
+    /* выравнивение текста  */
+    text-align: justify;
+    /* for left, right, center, justify */
+    /* насыщенность/жирность */
+    font-weight: bold;
+    /* Начертание/курсив */
+    font-style: italic;
+    /* пространство между строками */
+    line-height: 40px;
+    /* отступ первой строки */
+    text-indent: 25px;
+    /* подчеркивание */
+    text-decoration: underline;
+}

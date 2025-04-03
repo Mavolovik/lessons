@@ -1,0 +1,39 @@
+.cat_img{
+    width: 200px;
+    height: 150px;
+}
+.Facebook_logo{
+    width: 300px;
+    height: 300px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.block1{
+    background-color: rgb(173, 109, 25);
+    
+    border-right: 5px darkblue solid;
+    border-left: 5px black dashed;
+    border-top: 5px green dashed;
+    border-bottom: 5px yellow solid;
+    border-radius: 20px;
+    /* margin: 30px 60px 90px 0; */
+    padding: ;
+    text-align: center;
+
+   
+}
+.block1 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 40%;
+    
+}
+.block1 h2{
+    text-align: center;
+}
+.block1 p{
+    color: green;
+    text-align: center;
+}

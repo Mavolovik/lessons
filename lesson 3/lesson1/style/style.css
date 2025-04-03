@@ -1,0 +1,87 @@
+.tab{
+    margin-left: 40px;
+}
+/* p{
+    margin: 0;
+} */
+
+.list1{
+    color: blue;
+    width: 800px;
+    border: 1px solid black;
+    /* list-style-type: none;
+    /* inside, outside */
+    /* list-style-position: inside; */
+    /* list-style-image: url(https://th.bing.com/th/id/OIP.BFa87_b_ww9LKuuiJOWwqwAAAA?w=188&h=188&c=7&r=0&o=5&pid=1.7); */
+    list-style: georgian inside none;
+}
+
+p{
+    font-size: 20px;
+    
+}
+/* все параграфы которые находятся в элементе с классом main_block */
+.main_block p{
+        color: blue;
+}
+
+.child_block p{
+    font-weight: bold;
+}
+
+.main_block>p{
+    font-style: italic;
+}
+
+.table1{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table1 th, .table1 td{
+    border: 1px solid black;
+}
+
+.table1 img{
+    width: 50px;
+}
+
+.table2{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table2 th, .table2 td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.table3 {
+    margin-top: 20px;
+    border: 1px solid black;
+    border-collapse: collapse
+}
+.table3 th, .table3 td{
+    border: 1px solid;
+}
+
+.table4{
+    border: 1px solid black;
+    margin: 20px;
+    text-align: center;
+}
+
+.table4 th, .table4 td{
+    border: 1px solid black;
+}
+
+.table4 img{
+    width: 50px;
+}
+h1{
+    margin-left: 25px;
+}
+.style4{
+    font-weight: bold;
+}

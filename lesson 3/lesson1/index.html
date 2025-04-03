@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson 3</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <!-- Маркированный список - unordered list -->
+     <!-- li маркирований список -->
+     <li>microsoft</li>
+     <li>google</li>
+     <li>apple</li>
+     <li>ibm</li>
+
+     <ul type="circle">
+    <li>microsoft</li>
+    <li>google</li>
+    <li>apple</li>
+    <li>ibm</li>
+     </ul>
+
+     <ul type="square">
+        <li>microsoft</li>
+        <li>google</li>
+        <li>apple</li>
+        <li>ibm</li>
+     </ul>
+
+     <ul type="disc">
+        <li>microsoft</li>
+        <li>google</li>
+        <li>apple</li>
+        <li>ibm</li>
+     </ul>
+     <!-- нумерований список - ordered list -->
+      <!-- start-5 отсчет от 5ти -->
+      <ol start="5">
+         <li>Javascript</li>
+         <li>java</li>
+         <li>phyton</li>
+         <li>C#</li>
+         <li>Ruby</li>
+      </ol>
+      <!-- 1, А, а, I, i -->
+      <ol type="I">
+         <li>Javascript</li>
+         <li>java</li>
+         <li>phyton</li>
+         <li>C#</li>
+         <li>Ruby</li>
+      </ol>
+      <!-- обртный отсчет -->
+      <ol reversed>
+         <li>Javascript</li>
+         <li>java</li>
+         <li>phyton</li>
+         <li>C#</li>
+         <li>Ruby</li>
+      </ol>
+
+      <ol type="I">
+         <li>Javascript</li>
+         <li>java</li>
+         <li>phyton</li>
+         <li>C#</li>
+         <li>Ruby</li>
+      </ol>
+      <!-- список определений- description list -->
+       <!-- dt - description term
+        dd description definition -->
+        <dl>
+         <dt>Termin 1</dt>
+         <dd>definotion 1</dd>
+         <dt>Termin 2</dt>
+         <dd>definition 2</dd>
+        </dl>
+
+        <div>
+         <p>termin 1</p>
+         <p class="tab">definotion 1</p>
+         <p>Termin 2</p>
+         <p class="tab">definition 2</p>
+        </div>
+
+        <ol class="list1">
+         <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga ipsam aut, et quos cum tempora, voluptas consectetur ex nisi saepe ipsa doloremque id nostrum harum asperiores, incidunt quae nulla perferendis.</li>
+         <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam a quibusdam commodi autem similique harum. Eos nesciunt eaque itaque, alias nisi voluptates, asperiores inventore quasi ullam dolorum dignissimos, atque aliquam.</li>
+         <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt perspiciatis exercitationem ullam libero delectus sapiente sit obcaecati numquam, quas adipisci id vel nostrum quam doloremque eos voluptatem, voluptas natus nemo!</li>
+        </ol>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, cum animi velit ducimus ea perspiciatis quia dignissimos nostrum officia! Labore quas architecto adipisci vitae est dicta odio expedita ipsum quisquam?</p>
+        <div class="main_block">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error odio magni, quae fuga cum doloremque illum doloribus. Distinctio enim veritatis, nam, ipsam adipisci voluptatibus, neque voluptatem minus totam similique omnis.</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vitae quidem nihil illo ad vero magni cupiditate eius! Nobis magnam consectetur quae quisquam corporis. Consequuntur id veniam saepe repellat totam!</p>
+         <div class="child_block">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit quod sapiente nulla atque reiciendis, iste placeat natus temporibus dolor doloremque, tenetur delectus, porro expedita blanditiis labore dignissimos minus mollitia repudiandae?</p>
+         </div>
+        </div>
+
+
+        <table class="table1">
+         <tr>
+            <th>first name</th>
+            <th>last name</th>
+         </tr>
+         <tr>
+            <td>john</td>
+            <td>Shmidt</td>
+         </tr>
+         <tr>
+            <td>Bob</td>
+            <td>Brown</td>
+         </tr>
+         <tr>
+            <td><img src="https://th.bing.com/th/id/OIP.BFa87_b_ww9LKuuiJOWwqwAAAA?w=188&h=188&c=7&r=0&o=5&pid=1.7" alt=""></td>
+            <td><img src="https://th.bing.com/th/id/OIP.BFa87_b_ww9LKuuiJOWwqwAAAA?w=188&h=188&c=7&r=0&o=5&pid=1.7" alt=""></td>
+         </tr>
+        </table>
+
+        <table class="table2">
+         <tr>
+            <td rowspan="2">browser</td>
+            <th colspan="2">Explorer</th>
+            <th colspan="3">Opera</th>
+            <th colspan="2">Firefox</th>
+         </tr>
+         <tr>
+            <th>6.0</th>
+            <th>7.0</th>
+            <th>7.0</th>
+            <th>8.0</th>
+            <th>9.0</th>
+            <th>1.0</th>
+            <th>2.0</th>
+         </tr>
+         <tr>
+            <td>поддерживается</td>
+            <td>нет</td>
+            <td>да</td>
+            <td>нет</td>
+            <td colspan="4">да</td>
+         </tr>
+        </table>
+
+        <table class="table3">
+         <tr>
+         <th rowspan="2">heading</th>
+         <th>students</th>
+         <th colspan="3">Details</th>
+         </tr>
+
+         <tr>
+         <th>id</th>
+         <th>name</th>
+         <th>departament</th>
+         <th>roll number</th>
+         </tr>
+
+         <tr>
+         <td rowspan="4">student list</td>
+         <td>1</td>
+         <td>victor</td>
+         <td>computer science</td>
+         <td>12345</td>
+         </tr>
+
+         <tr>
+         <td>2</td>
+         <td>williams</td>
+         <td>electronics</td>
+         <td>23456</td>
+         </tr>
+
+         <tr>
+         <td>3</td>
+         <td>harry</td>
+         <td>electrical</td>
+         <td>34567</td>
+         </tr>
+
+         <tr>
+         <td>4</td>
+         <td>rick</td>
+         <td>civil</td>
+         <td>45678</td>
+         </tr>
+        </table>
+
+        <h1>Список валют</h1>
+        <ul class="style4">
+         <li>€(EURO) - Евро (Страны Еврозоны)</li>
+         <li>$(USD) - Доллар (США)</li>
+         <li>£(GBP) - Фунт стерлингов (Великобритания)</li>
+         <li>¥(JPY) - Иена (Япония)</li>
+         <li>₾(Gel) - Лари (Грузия)</li>
+        </ul>
+        <h1>курс на сегодня</h1>
+
+        <table class="table4">
+         <tr>
+            <th>Флаг</th>
+            <th>Валюта</th>
+            <th>Курс</th>
+         </tr>
+         <tr>
+            <td><img src="https://th.bing.com/th/id/OIP.EhDvtVpXHpaHOfwVFgo8ogHaD5?w=316&h=180&c=7&r=0&o=5&pid=1.7" alt=""><img src="https://th.bing.com/th/id/OIP.hAYq8Jym3ZUzprDoyybrvwHaFP?w=279&h=197&c=7&r=0&o=5&pid=1.7" alt=""></td>
+            <td>$(USD)/€(EURO)</td>
+            <td>0,93€</td>
+         </tr>
+         <tr>
+            <td><img src="https://th.bing.com/th/id/OIP.y-2PSU6JXH4iik0mxuPvhwHaE8?w=256&h=180&c=7&r=0&o=5&pid=1.7" alt=""><img src="https://th.bing.com/th/id/OIP.hAYq8Jym3ZUzprDoyybrvwHaFP?w=279&h=197&c=7&r=0&o=5&pid=1.7" alt=""></td>
+            <td>£(GBP)/€(EURO)</td>
+            <td>1,17€</td>
+         </tr>
+         <tr>
+            <td><img src="https://th.bing.com/th/id/OIP.sBm9rVOIWWVJpsn7q9CtDQHaEK?w=310&h=180&c=7&r=0&o=5&pid=1.7" alt=""><img src="https://th.bing.com/th/id/OIP.hAYq8Jym3ZUzprDoyybrvwHaFP?w=279&h=197&c=7&r=0&o=5&pid=1.7" alt=""></td>
+            <td>¥(JPY)/€(EURO)</td>
+            <td>0,0073€</td>
+         </tr>
+         <tr>
+            <td><img src="https://th.bing.com/th/id/OIP.pR3lacoBKVwMkGVtBI_vUAHaDZ?w=333&h=160&c=7&r=0&o=5&pid=1.7" alt=""><img src="https://th.bing.com/th/id/OIP.hAYq8Jym3ZUzprDoyybrvwHaFP?w=279&h=197&c=7&r=0&o=5&pid=1.7" alt=""></td>
+            <td>₾(Gel)/€(EURO)</td>
+            <td>0,32€</td>
+         </tr>
+         
+        </table>
+</body>
+</html>

@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    height: 200px;
+    width: 200px;
+    margin: 15px 15px ;
+    position: relative;
+}
+
+.box1{
+    border: 1px solid red;
+}
+.box2{
+    border: 1px solid blue;
+    bottom: 100px;
+    left: 100px;
+}
+.box3{
+    border: 1px solid green; 
+    bottom: 200px;
+    left: 200px;
+}
+
+.box4{
+    background-color: red;
+}
+.box5{
+    background-color: blue;
+    bottom: 100px;
+    left: 100px;
+}
+.box6{
+    background-color: green;
+    bottom: 200px;
+    left: 200px;
+}
+
+.box7{
+    background-color: red;
+}
+.box8{
+    background-color: blue;
+    bottom: 100px;
+    left: 100px;
+    z-index: 2;
+
+}
+.box9{
+    background-color: green;
+    bottom: 200px;
+    left: 200px;
+}
+
+.box_1{
+    background-color: red;
+    z-index: 1;
+}
+.box_2{
+    background-color: blue;
+    bottom: 100px;
+    left: 100px;
+
+}
+.box_3{
+    background-color: green;
+    bottom: 200px;
+    left: 200px;
+    z-index: 2;
+}
+
+.box_4{
+    background-color: red;
+    z-index: 2;
+}
+.box_5{
+    background-color: blue;
+    bottom: 100px;
+    left: 100px;
+    z-index: 1;
+
+}
+.box_6{
+    background-color: green;
+    bottom: 200px;
+    left: 200px;
+}
+
+.box_7{
+    border: 1px solid red;
+}
+.box_8{
+    border: 1px solid blue;
+   
+}
+.box_9{
+    border: 1px solid green;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}

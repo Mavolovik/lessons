@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 1em;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 8px;
+}
+
+.main{
+    width: 50%;
+    border: 1px solid blue;
+    box-shadow: 0 0 15px rgb(36, 36, 126);
+    border-radius: 10px;
+    padding: 20px;
+    /* выравнивание блока по центру */
+    margin: 10px auto;
+}
+
+.header{
+    background-color: rgb(2, 180, 180);
+    text-align: center;
+    padding: 65px 0;
+}
+
+.header h1{
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+}
+
+input, label, textarea, select{
+    display: block;
+    width: 35%;
+    margin: 10px 0;
+}
+
+input, textarea, select{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.hiddenelem{
+    display: none;
+}
+
+.boxes input, .boxes label{
+    width: auto;
+    display: inline;
+}
+
+label:hover, input:hover, textarea:hover, select:hover, p:hover{
+    color: aqua;
+    border-color: aqua;
+}
+
+button{
+    width: 107px;
+    height: 30px;
+    padding: 5px 5px;
+    font-size: 16px;
+    background-color: rgb(186, 186, 255);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+button:hover{
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+a{
+    display: block;
+    padding: 5px;
+}
+
+.a1{
+    color: blue;
+    text-decoration: none;
+}
+.a1:hover{
+    color: green;
+    text-decoration: underline;
+}
+.a2{
+    color: red;
+}
+.a2:hover{
+    color: blue;
+    text-decoration: line-through;
+}
+.a3{
+    text-decoration: none;
+}
+.a3:hover{
+    color: red;
+    text-decoration: overline;
+}
+
